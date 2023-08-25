@@ -1,0 +1,432 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Navbar */
+nav {
+  background-color: rgba(241, 243, 255, 1);
+}
+.logo {
+  width: 100px;
+  height: 34px;
+  background-color: rgba(13, 40, 166, 1);
+  margin-right: 700px;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.register {
+  width: 81px;
+  height: 36px;
+  background-color: rgba(92, 184, 95, 1);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* Hero Section */
+.hero-container {
+  background-color: rgba(241, 243, 255, 1);
+  height: 500px;
+}
+
+.hero-tulisan {
+  margin: auto auto auto 120px;
+}
+.hero-header {
+  font-size: 36px;
+  font-weight: 700;
+  width: 568px;
+  line-height: 54px;
+}
+
+.hero-paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  width: 468px;
+  line-height: 20px;
+}
+
+.hero-button {
+  width: 140px;
+  height: 36px;
+  font-size: 14px;
+  background-color: rgba(92, 184, 95, 1);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.hero-gambar {
+  width: 704px;
+  height: 407px;
+  margin-top: 92px;
+}
+
+/* Our Services */
+.service-tulisan {
+  margin-left: 150px;
+}
+
+.service-header {
+  width: 468px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.service-paragraph {
+  width: 468px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.service-item {
+  font-size: 14px;
+}
+
+/* Why Us */
+.whyUsHeader {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.whyUsText {
+  font-size: 14px;
+  line-height: 20px;
+}
+.WhyUs-container {
+  width: 1168px;
+  height: 308px;
+  margin-left: 100px;
+}
+.kotakrounded {
+  width: 268px;
+  height: 196px;
+  border: 1px solid rgba(208, 208, 208, 1);
+}
+
+.kotakheader {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.kotakParagraph {
+  font-size: 14px;
+  line-height: 20px;
+  width: 220px;
+}
+
+/* CTA */
+.CTA {
+  height: 326px;
+  background-color: rgba(13, 40, 166, 1);
+}
+
+.CTAH {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.CTAText {
+  width: 468px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* FAQ */
+.FAQH {
+  font-size: 24px;
+  font-weight: 700;
+  width: 368px;
+}
+
+.FAQText {
+  font-size: 14px;
+  line-height: 20px;
+  width: 368px;
+}
+
+.accordion-item {
+  width: 668px;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* footer */
+.copyright {
+  width: 100px;
+}
+.address {
+  width: 268px;
+}
+.text {
+  font-size: 14px;
+  width: 268px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  background-color: transparent;
+  border: 2px solid rgba(196, 196, 196, 1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  background-color: transparent;
+  border: 2px solid rgba(196, 196, 196, 1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+  background-color: rgba(92, 184, 95, 1);
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+  background-color: rgba(92, 184, 95, 1);
+}
+
+/* testimonial */
+.item {
+  width: 619px;
+  height: 270px;
+  background-color: rgba(241, 243, 255, 1);
+}
+
+.profile {
+  width: 80px;
+}
+.profile img {
+  width: 80px;
+  height: 80px;
+}
+
+.textReview {
+  width: 415px;
+  height: 132px;
+  font-size: 14px;
+}
+
+.bintang {
+  width: 80px;
+  height: 16px;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    margin-right: 120px;
+  }
+  .hero-container {
+    height: 657px;
+    width: 100%;
+  }
+  .hero-tulisan {
+    margin: 80px auto 0px auto;
+  }
+  .hero-header {
+    width: 328px;
+    padding-bottom: 5px;
+  }
+  .hero-paragraph {
+    width: 328px;
+    padding-bottom: 4px;
+  }
+  .hero-gambar img {
+    height: 199px;
+    width: 320px;
+  }
+  .hero-gambar {
+    margin-top: 65px;
+    width: 360px;
+    text-align: right;
+  }
+
+  /* Service */
+  .service-gambar {
+    padding: 0 !important;
+    margin: 50px auto 30px auto !important;
+  }
+  .service-gambar img {
+    width: 252px;
+    height: 228px;
+  }
+  .service-tulisan {
+    margin: auto !important;
+    padding: 0px !important;
+  }
+
+  .service-header {
+    width: 328px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+
+  .service-paragraph {
+    width: 328px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+  }
+
+  /* Why Us */
+  .whyUsHeader {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: auto;
+  }
+  .whyUsText {
+    font-size: 14px;
+    line-height: 20px;
+    margin: auto;
+  }
+  .WhyUs-container {
+    width: 328px;
+    height: 900px;
+    margin: auto;
+  }
+  .kotakrounded {
+    width: 328px;
+    height: 176px;
+    border: 1px solid rgba(208, 208, 208, 1);
+    margin: auto !important;
+  }
+
+  .kotakheader {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .kotakParagraph {
+    font-size: 14px;
+    line-height: 20px;
+    width: 220px;
+  }
+
+  .kotak {
+    width: 328px;
+    height: 792px;
+  }
+
+  /* testimonial */
+  .testi {
+    margin: auto;
+  }
+  .item {
+    width: 348px;
+    height: 372px;
+    background-color: rgba(241, 243, 255, 1);
+  }
+
+  .profile {
+    width: 80px;
+  }
+  .profile img {
+    margin: 30px 0 10px 0;
+    width: 80px;
+    height: 80px;
+  }
+
+  .textReview {
+    width: 264px;
+    height: 148px;
+    font-size: 14px;
+  }
+
+  .bintang {
+    width: 80px;
+    height: 16px;
+    margin: auto;
+    padding: 10px 0 20px 0;
+  }
+
+  /* CTA */
+  .CTA-Con {
+    margin: auto;
+  }
+  .CTA {
+    width: 328px;
+    height: 400px;
+    background-color: rgba(13, 40, 166, 1);
+    text-align: center;
+  }
+
+  .CTAH {
+    font-size: 24px;
+    width: 212px;
+    font-weight: 700;
+    margin-bottom: 20px !important;
+  }
+
+  .CTAText {
+    width: 212px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  /* FAQ */
+  .FAQH {
+    font-size: 24px;
+    font-weight: 700;
+    width: 328px;
+  }
+
+  .FAQText {
+    font-size: 14px;
+    line-height: 20px;
+    width: 328px;
+  }
+
+  .accordion-item {
+    width: 328px;
+  }
+
+  .accordion-item {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  /* footer */
+  .navigation {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .sosmed {
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+  }
+
+  .copyright {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .text {
+    margin-bottom: 10px;
+  }
+
+  .offcanvas-body {
+    padding-top: 0;
+  }
+  #navbarOffcanvasLg {
+    width: 50%;
+  }
+
+  .nav-item {
+    padding-top: 10px;
+  }
+}
